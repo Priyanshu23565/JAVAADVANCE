@@ -1,0 +1,320 @@
+Framework Kya Hota Hai? 🤔
+Definition:
+👉 Framework ek pre-written code ka collection hota hai jo developers ko application develop karne me madad karta hai.
+👉 Framework ek ready-made structure deta hai, jisme hum apna code likhkar easily software ya web applications bana sakte hain.
+
+Simple Example:
+🚗 Socho tum ek car banana chahte ho.
+
+Agar tum sab kuch khud se banaoge (engine, wheels, body, etc.), toh bohot time lagega.
+Agar tum ek ready-made chassis (structure) le lo, toh sirf engine aur design add karke fast car bana sakte ho!
+
+
+
+Types of Frameworks
+1️⃣ Web Development Frameworks (Website / Web Apps ke liye)
+Spring Boot (Java)
+Django (Python)
+Express.js (JavaScript)
+Laravel (PHP)
+
+2️⃣ Frontend Frameworks (UI Design ke liye)
+React.js
+Angular
+Vue.js
+
+3️⃣ Mobile Development Frameworks
+Flutter (Dart)
+React Native (JavaScript)
+Swift (iOS)
+Kotlin (Android)
+
+4️⃣ Game Development Frameworks
+Unity (C#)
+Unreal Engine (C++)
+Godot (GDScript)
+
+
+5️⃣ Data Science / AI Frameworks
+TensorFlow (Python)
+PyTorch (Python)
+SciKit-Learn (Python)
+
+
+
+Spring Framework Kya Hai? 🤔
+Spring Framework ek powerful Java framework hai jo enterprise-level applications develop karne ke liye banaya gaya tha.
+
+🔹 Java applications banane ke liye bohot saari cheezein setup karni padti thi, jaise:
+
+Manual dependency injection
+Server setup
+Security handle karna
+Database connectivity manage karna
+Large-scale applications ka structure banane me dikkat
+
+
+Spring vs Spring Boot – Major Difference
+
+
+Feature                 	Spring Framework	                           Spring Boot
+
+Configuration	             Manual configuration (XML, Java) required.	         Auto-configuration, kam setup.
+Server	                     Alag se setup karna padta hai.	                 Embedded Tomcat, Jetty server built-in.
+Dependency Management	     Manually add karni padti hai.	                 Starter dependencies, auto-managed.
+Microservices Support	     Complex aur manually manage karni padti hai.	 Microservices ke liye best hai.
+
+
+
+Spring Boot ek framework hai jo Java applications banane ko aasaan bana deta hai.
+Yeh backend development ke liye use hota hai, jisme web applications, APIs aur microservices banaye ja sakte hain.
+
+
+(Samajhne ka ek simple tareeka)
+Socho tum ek restaurant kholna chahte ho. Agar tum pure Java aur Spring Framework use karte ho, toh tumhe:
+
+Khud ka kitchen setup karna hoga (Server configuration)
+Khud ka menu likhna hoga (Manual coding & dependencies)
+Khud ka billing system banana hoga (Security, Database connection)
+Lekin Spring Boot ek ready-made restaurant jaisa hai, jisme:
+✅ Kitchen already setup hai (Embedded server - Tomcat, Jetty)
+✅ Menu ready hai (Auto Configuration)
+✅ Billing system built-in hai (Spring Security, Spring Data JPA)
+
+Spring Boot kyu use karte hain?
+✔ Less Code, More Work – Kam code likhkar jaldi application bana sakte ho.
+✔ Auto Configuration – Manual setting ka jhanjhat nahi.
+✔ Fast Development – Web apps aur APIs jaldi ban jati hain.
+✔ Microservices ke liye best – Chhoti-chhoti services banane me easy.
+
+
+
+
+
+1️⃣ Framework kya hota hai?
+Framework ek ready-made structure hota hai jo development ko easy banata hai. Isme pre-written code, libraries, aur tools hote hain jo hume fast aur efficient development me madad karte hain.
+
+💡 Example:
+Socho tumhe ek ghar banana hai.
+
+Pure Java use karoge toh sab kuch khud se karna padega (bricks, cement, design, etc.).
+Spring Boot (Framework) ek ready-made ghar jaisa hai, bas andar furniture lagana hai.
+Java ke kuch frameworks:
+✅ Spring Boot – Backend apps ke liye
+✅ Hibernate – Database handle karne ke liye
+✅ Struts – Web applications ke liye
+
+
+
+2️⃣ API kya hoti hai?
+API ka full form hai Application Programming Interface. Yeh ek bridge hai jo do applications ko connect karta hai.
+
+💡 Example:
+Socho tum Zomato se pizza order karte ho. Zomato ka app API ke through:
+
+Restaurant se data leta hai (konse pizza available hain?)
+Payment gateway se connect karta hai (Google Pay, UPI, etc.)
+Delivery system se connect hota hai (Rider kaha hai?)
+🔹 Types of APIs:
+✔ REST API – Web-based APIs (mostly use hoti hai)
+✔ SOAP API – XML-based API (old style)
+✔ GraphQL API – Facebook ne banayi thi, flexible hai
+
+
+
+
+
+3️⃣ Microservice kya hota hai?
+Microservices ek software architecture hai jisme application ko chhoti-chhoti services me tod diya jata hai.
+
+💡 Example:
+Socho tum Amazon ka app use kar rahe ho. Amazon ke alag-alag features hote hain jaise:
+
+🛒 Cart Service – Cart me item add karna
+💳 Payment Service – UPI/Credit card se payment
+🚚 Delivery Service – Order tracking
+
+
+
+
+
+Apache Maven Kya Hota Hai?
+Apache Maven ek build automation tool hai jo Java projects ko manage aur build karne me madad karta hai.
+
+Kyun Zaroori Hai?
+✔ Dependency Management – External libraries (like Spring Boot, Hibernate) ko automatically download aur manage karta hai.
+✔ Project Build – Java code ko compile, test, aur package (JAR/WAR) banata hai.
+✔ Standardized Structure – Sabhi Maven projects ek proper folder structure follow karte hain.
+✔ Easy Integration – CI/CD pipelines aur DevOps tools ke saath easily integrate hota hai.
+
+
+
+
+
+install -->
+
+
+
+
+
+ Step 1: Install Required Tools
+1️⃣ Java Install Karo (JDK 17 or 21 Recommended)
+
+
+
+2️⃣ Spring Boot ke liye IDE Setup Karo
+
+✅ IntelliJ IDEA (Recommended) – Download Link
+✅ Eclipse IDE – Download Link
+✅ VS Code (Agar tumhe pasand ho)
+
+
+3️⃣ Maven Install Karo (Agar nahi hai)
+			
+Agar install nahi hai toh Apache Maven download karo.
+
+
+
+Agar tum Windows use kar rahe ho, toh "Binary zip archive" download karo:
+
+✅ Download: apache-maven-3.9.9-bin.zip
+
+Agar Linux/Mac use kar rahe ho, toh "Binary tar.gz archive" download karo:
+
+✅ Download: apache-maven-3.9.9-bin.tar.gz
+
+--------------------------------------------
+
+---->> mvn -version
+
+Step 2: Create First Spring Boot Project
+Tum Spring Initializr se project bana sakte ho:
+
+🔹 Website: https://start.spring.io/
+
+1️⃣ Project Type: Maven
+2️⃣ Language: Java
+3️⃣ Spring Boot Version: 3.2.0+ (Latest)
+4️⃣ Group: com.example
+5️⃣ Artifact: myapp
+6️⃣ Dependencies:
+✅ Spring Web (For REST APIs)
+✅ Spring Boot DevTools (For Auto-reload)
+
+🎯 Project Download karke IDE me open kar lo
+
+
+-----------------MYSQL INSTALL ---------------------
+
+Install hone ke baad --->
+
+
+create database dbase;
+show databases;
+use dbase;
+CREATE TABLE sum_table (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    a INT NOT NULL,
+    b INT NOT NULL,
+    sum INT NOT NULL
+);
+
+select *from sum_table;
+SHOW TABLES;
+
+
+
+
+--------------------------------------------------------------
+SPRING BOOT LAYER :
+
+
+"4 Layers" Kyu? - Ek Real-Life Example 📖
+Soch lo ki Tum ek Pizza Restaurant bana rahe ho 🍕.
+
+Ek customer call karta hai aur order deta hai.
+Tumhare restaurant ka system structured hai, to sab kaam smoothly hota hai.
+
+🛠️ Restaurant (Spring Boot App) me 4 Layers ka Example 
+
+Spring Boot Layer	  Restaurant Me Kaam
+1️⃣ Controller Layer	      Waiter - Order leta hai
+2️⃣ Service Layer	          Chef - Pizza banata hai
+3️⃣ Repository Layer	      Kitchen Store - Ingredients fetch karta hai
+4️⃣ Model Layer	          Recipe Book - Pizza ka structure define karta hai
+
+
+Spring Boot me 4 Folders kyun hote hain? 🤔
+Spring Boot me clean architecture maintain karne ke liye 4 main layers hoti hain:
+
+Layer	Kaam Kya Karti Hai?
+1️⃣ Controller Layer	API Requests handle karti hai
+2️⃣ Service Layer	Business Logic handle karti hai
+3️⃣ Repository Layer	Database se baat karti hai
+4️⃣ Model Layer	Data structure define karti hai
+
+
+
+
+----------------------------------------------------
+
+
+HTTPS REQUEST 
+
+ HTTP Methods: GET, POST, PUT, DELETE, PATCH Explained with Example 🚀
+Socho ki tum Amazon ka ek Shopping App bana rahe ho 🛒
+💡 Ek Product ko leke kya-kya operations ho sakte hain?
+1️⃣ Product ko dekhna (GET)
+2️⃣ Naya Product add karna (POST)
+3️⃣ Product ki details update karna (PUT / PATCH)
+4️⃣ Product delete karna (DELETE)
+
+
+
+
+✅ 1. GET - Data Fetch Karna (READ)
+🔥 Example:
+
+Tum Amazon pr Product dekh rahe ho (Data Fetch ho raha hai).
+Tumhara browser Server se Data GET kar raha hai.
+
+
+
+✅ 2. POST - Naya Data Add Karna (CREATE)
+🔥 Example:
+
+Tum Amazon pe Naya Product Add kar rahe ho.
+Server ko Data bhejna hota hai, tab POST use hota hai.
+
+
+
+✅ 3. PUT - Pure Data Ko Update Karna (UPDATE FULL RECORD)
+🔥 Example:
+
+Tum Amazon pe Product ka naam aur price dono update karna chahte ho.
+PUT puri entry ko update karta hai, sirf kuch nahi.
+
+
+✅ 4. PATCH - Sirf Kuch Fields Update Karna (PARTIAL UPDATE)
+🔥 Example:
+
+Tum Amazon pe sirf price update karna chahte ho, naam nahi.
+PATCH sirf wahi field update karega jo bheji gayi hai.
+
+
+
+✅ 5. DELETE - Data Delete Karna
+🔥 Example:
+
+Tum Amazon se ek product delete karna chahte ho.
+DELETE request se wo product database se remove ho jayega.
+
+
+
+🚀 Summary Table
+HTTP Method	Kaam Kya Karta Hai?	                Example API Call
+GET	Data Fetch (Read)	                        GET /products
+POST	Naya Data Add (Create)	                        POST /products
+PUT	Pura Data Update (Full Update)	                PUT /products/1
+PATCH	Sirf Kuch Fields Update (Partial Update)	PATCH /products/1
+DELETE	Data Delete (Remove)
